@@ -1,0 +1,173 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+}
+.tableHover:hover {
+  cursor: pointer;
+}
+
+*{
+  /* color: #6d0000 !important */
+}
+body{
+  /* background-color: #181818 !important; */
+  background-color: #111827 !important;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  /* background-color: #282c34 !important; */
+  /* background-color: #bb000e !important; */
+  background-color: #6d0000 !important;
+  background-color: #1f2937 !important;
+}
+.css-itbxxf-MuiButtonBase-root-MuiListItem-root:hover .css-cveggr-MuiListItemIcon-root,
+.css-itbxxf-MuiButtonBase-root-MuiListItem-root:hover .css-tlelie-MuiListItemText-root{
+  color: #1f2937 !important
+}
+.css-itbxxf-MuiButtonBase-root-MuiListItem-root:hover,
+.css-itbxxf-MuiButtonBase-root-MuiListItem-root.Mui-selected{
+  background-color: #404040 !important;
+  background-color: #9ca3af !important;
+}
+.css-cveggr-MuiListItemIcon-root,
+.css-tlelie-MuiListItemText-root{
+  /* color: #6d0000 !important; */
+  /* color: #fff !important; */
+  color: #9ca3af !important;
+  
+}
+.css-itbxxf-MuiButtonBase-root-MuiListItem-root.Mui-selected .css-cveggr-MuiListItemIcon-root,
+.css-itbxxf-MuiButtonBase-root-MuiListItem-root.Mui-selected .css-tlelie-MuiListItemText-root{
+  color: #1f2937 !important
+}
+.css-1v5u2yv .column{
+  margin-top: 50px !important;
+  padding: 20px 30px !important;
+  border-radius: 10px !important;
+  background-color: #1f2937 !important;
+}
+.ui.large.form .ui.stacked.segment{
+  background-color: #1f2937 !important;
+  padding: 0 !important;
+}
+.ui.message{
+  background: transparent !important;
+  color: #fff !important;
+}
+.css-13cymwt-control,
+.ui.form .field .ui.input input,
+.css-319lph-ValueContainer, 
+.ui.form textarea,
+.ui.selection.dropdown,
+.ui.form .fields .field .ui.input input{
+  background: #9ca3af !important;
+  background: #6f7681 !important;
+}
+.css-13cymwt-control:hover,
+.css-13cymwt-control:focus,
+.css-13cymwt-control:active{
+  background: #6f7681 !important;
+}
+.ui.dropdown .menu .selected.item, .ui.dropdown.selected{
+  background-color: #1f2937 !important;
+}
+.ui.selection.dropdown .menu>.item,
+.ui.dropdown .menu .active.item{
+  border-top: 1px solid #1f2937 !important;
+  background-color: #9ca3af !important;
+  color: #1f2937 !important
+}
+.css-13cymwt-control,
+.css-1s2u09g-control{
+  border: 1px solid #6f7681 !important;
+}
+.css-1jqq78o-placeholder,
+.css-14el2xx-placeholder{
+  color: #9ca3af !important;
+  /* color: #1f2937 !important; */
+}
+.MTableToolbar-root-19,
+.MuiPaper-root,
+.Component-horizontalScrollContainer-26,
+.MuiTable-root,
+.MTableToolbar-root-5,
+.MuiTableRow-root,
+.MuiTableHead-root,
+.css-kru1t1-MuiToolbar-root{
+  background-color: #1f2937 !important;
+}
+.css-zxtyt4-MuiPaper-root-MuiAppBar-root{
+  background-color: #1f2937 !important;
+  color: #9ca3af !important;
+}
+.ui.table,
+.MuiTableRow-root th,
+.ui.table thead th{
+  background: #9ca3af !important;
+  color: #1f2937 !important;
+}
+.css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper strong,
+.css-dr8241-MuiTypography-root,
+.ui h1,
+.ui h2,
+.ui h3,
+.ui h4,
+.ui h5,
+.ui h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.ui.form .field>label
+{
+  color: #9ca3af !important;
+}
+span svg{
+  color: #1f2937 !important;
+}
+.mt-MuiPaper-root{
+  background: #9ca3af !important;
+  color: #1f2937 !important;
+}
+.mt-MTableHeader-header-27{
+  background: #1f2937 !important;
+  /* color: #1f2937 !important; */
+}
+.ui.cards>.card{
+  background-color: #1f2937 !important;
+  border-color: #111827 !important; 
+}
+.ui.card>.content>.header, 
+.ui.cards>.card>.content>.header,
+.ui.card .meta, .ui.cards>.card .meta,
+.ui.card>.content>.description, .ui.cards>.card>.content>.description
+{
+  color: #9ca3af !important;
+}
+
+.ui.styled.accordion, .ui.styled.accordion .accordion{
+  background-color: #1f2937 !important;
+  color: #9ca3af !important;
+}
+.MuiTableCell-body{
+  color: #9ca3af !important;
+}
